@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gloria's Webpage</title>
+<title>Gloria Higley Webpage</title>
+<link rel="stylesheet" href="styles.css">
+<link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=News Cycle' rel='stylesheet'>
 </head>
-<body>
+<body>  
     <header>
+       The Long Way Around: Adventures in Coding
+    </header>
         <nav>
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#About"><li>About</li></a>
-                <a href="#Portfolio"><li>Portfolio</li></a>
+            <ul class = "navbar">
                 <a href="#Contact"><li>Contact</li></a>
+                <a href="#Portfolio"><li>Portfolio</li></a>
+                <a href="#Learn"><li>Learn</li></a>
+                <a href="#About"><li>About</li></a>
             </ul>
         </nav>
-    </header>
     <main>
         <article>
-            <a name="About"></a>
             <h1>About</h1>
-            <img src="./images/gloria.jpg" alt="Picture of Gloria Higley" height="100">
-            <p>Hello, and welcome to my website. My name is Gloria Higley and I am an aspiring software developer. <br><br>I am currently a Knowledge Manager with a large financial technology company in Kansas City, MO. I love my job and am learning to code to enhance my skillset for my current role and eventually hope to transition to a more technical job. <br><br>I have been learning how to code for the past two years via a mixture of online tutorials, local workshops, and am now currently enrolled in LaunchCode 101. The support in Kansas City for learning to code in phenomenal, especially for those under represented in tech. <br> <br>When I'm not learning to code you can find me at the lake with my husband, Andrew and our daughter, Fiona.</p>
+                <a name="About"></a>
+                    <img src="./images/gloria.jpg" alt="Picture of Gloria Higley" id="glopic">
+                        <p class="intro"> Hello, and welcome to my website. My name is Gloria Higley and I am an aspiring software developer. I am currently a Knowledge Manager with a large financial technology company in Kansas City, MO. I love my job and am learning to code to enhance my skillset for my current role and eventually plan to transition to a more technical job. When I'm not learning to code you can find me at the lake with my husband, Andrew and our daughter, Fiona.</p>
         </article>
         <article>
-            <a name="Portfolio"></a>
+                <h1>Learning to Code</h1>
+                    <a name="Learn"></a>
+                    <p>I graduated from college with undergraduate and graduate degrees in general business management. I never really knew what I wanted to be when I grew up so I went where I was led in regards to my education. Once I had been in the workforce for a few years, I realized that I had a natural affinity and preference for working with systems and technology. A mentor of mine suggested that I look into learning to program as a possible career option and development opportunity. <br><br>
+                            
+                            To get started learning to code, I began looking at free resources to learn introductory HTML, CSS, and JavaScript provided by awesome websites like <a href="www.codeacademy.com">Code Academy</a> and <a href="www.freecodecamp.com">freeCodeCamp</a>. I was instantly hooked but also struggled a lot with applying the concepts to real projects that I learned in the tutorials. I had always learned in a traditional classroom setting and but I did not want to go back to school again. Having been in college already for so many years of my life, I really wanted to take a different path to gaining new skills. 
+                            
+                            Once I got past the initial introductory courses online, I had no idea where to go from there and was completely overwhelmed by the magnitude of everything I thought I may need to know. I realized that I needed to emulate my traditional learning experience by finding a way to have access to instructors and a curriculum to guide my learning. <br></br> To facilitate that I began to apply to free or reduced cost coding workshops in Kansas City. (Off topic but too important not to mention: the support in Kansas City for learning to code in <strong>phenomenal</strong>, especially for those under-represented in tech.) Participation in workshops ultimately led me to learning about LaunchCode 101 and applying to be part of the class. I did not make the cut the first year I applied but did make it in for the Fall 2017 class and am currently enrolled. It has been such an awesome experience so far and exactly the catalyst I needed to get me to the next step in my education. </p> 
+        <article>
             <h1>Portfolio</h1>
-            <p>Please see below for projects that highlight the skills I've attained on my journey to learn to code. </p>
-            <div>
-                <h4>Project 1</h4>
-                <figure>
-                    <img src="https://iz.zohostatic.com/sites/default/files/professionally-crafted-themes.png" alt="Picture of computer" height="100">
-                    <figcaption>Example website in HTML and CSS</figcaption>
-                </figure>
-            </div>
-            <div>
-                <h4>Project 2</h4>
-                <figure>
-                    <img src="http://www.pvhc.net/img27/vjkxubzudulzvgetaseh.png" alt="calculator" height="100">
-                    <figcaption>Example calculator in HTML, CSS, and JavaScript</figcaption>
-                </figure>
-            </div>
-            <div>
-                <h4>Project 3</h4>
-                <figure>
-                    <img src="https://developers.google.com/web/progressive-web-apps/images/pwa-fast.png" alt="mobile app" height="100">
-                    <figcaption>Example Mobile web app in React</figcaption>
-                </figure>
-            </div>
+                <a name="Portfolio"></a>
+                    <p>Please see below for projects that highlight the skills I've attained on my journey to learn to code. Click on the link above each image to view the source code on GitHub.</p>
+                        <div class="row">
+                            <div class="column"><a href="https://github.com/gloriahigley">Website built with HTML and CSS</a></div>
+                            <div class="column"><a href="https://github.com/gloriahigley">Calculator built with HTML, CSS, and Python</a></div>
+                            <div class="column"><a href="https://github.com/gloriahigley">Mobile App built with React Native</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <figure>
+                                    <img src="https://iz.zohostatic.com/sites/default/files/professionally-crafted-themes.png" alt="Picture of computer" height="100">
+                                </figure>
+                        </div>
+                        <div class="column">
+                                <figure>
+                                    <img src="http://www.pvhc.net/img27/vjkxubzudulzvgetaseh.png" alt="calculator" height="100">
+                                </figure>
+                        </div>
+                        <div class="column">
+                      <figure>
+                          <img src="https://developers.google.com/web/progressive-web-apps/images/pwa-fast.png" alt="mobile app" height="100">
+                      </figure>
+                    </div>
+                  </div>
         </article>
         <article>
-            <a name="Contact"></a>
             <h1>Contact</h1>
+            <a name="Contact"></a>
             <p> You can find me on <a href="https://github.com/gloriahigley"> GitHub</a>, <a href="https://twitter.com/zeebolove">Twitter</a>, and <a href="https://www.linkedin.com/in/gloriahigley">LinkedIn</a>.</p>
         </article>
     </main>
-<footer><p>&copy Gloria Higley 2017</p></footer>
+<footer>&copy Gloria Higley 2017</footer>
 </body>
 </html>
