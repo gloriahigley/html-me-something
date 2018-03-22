@@ -5,8 +5,10 @@
 <link rel="stylesheet" href="styles.css">
 <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=News Cycle' rel='stylesheet'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>  
+        <div class="container-fluid">
     <header>
        The Long Way Around: Adventures in Coding
     </header>
@@ -33,29 +35,38 @@
                             To get started learning to code, I began looking at free resources to learn introductory HTML, CSS, and JavaScript provided by awesome websites like <a href="https://www.codeacademy.com">Code Academy</a> and <a href="https://www.freecodecamp.com">freeCodeCamp</a>. I was instantly hooked but also struggled a lot with applying the concepts to real projects that I learned in the tutorials. I had always learned in a traditional classroom setting and but I did not want to go back to school again. Having been in college already for so many years of my life, I really wanted to take a different path to gaining new skills. 
                             
                             Once I got past the initial introductory courses online, I had no idea where to go from there and was completely overwhelmed by the magnitude of everything I thought I may need to know. I realized that I needed to emulate my traditional learning experience by finding a way to have access to instructors and a curriculum to guide my learning. <br></br> To facilitate that I began to apply to free or reduced cost coding workshops in Kansas City. (Off topic but too important not to mention: the support in Kansas City for learning to code in <strong>phenomenal</strong>, especially for those under-represented in tech.) Participation in workshops ultimately led me to learning about LaunchCode 101 and applying to be part of the class. I did not make the cut the first year I applied but did make it in for the Fall 2017 class and am currently enrolled. It has been such an awesome experience so far and exactly the catalyst I needed to get me to the next step in my education. </p> 
-        <article>
+                    </article>
+                            <article>
             <h1>Portfolio</h1>
                 <a name="Portfolio"></a>
                     <p>Please see below for projects that highlight the skills I've attained on my journey to learn to code. Click on the link above each image to view the source code on GitHub.</p>
-                        <div class="row">
-                            <div class="column"><a href="https://github.com/gloriahigley">Website built with HTML and CSS</a></div>
-                            <div class="column"><a href="https://github.com/gloriahigley">Calculator built with HTML, CSS, and Python</a></div>
-                            <div class="column"><a href="https://github.com/gloriahigley">Mobile App built with React Native</a></div>
+                    <div class="container">
+                    <div class="row">
+                            <div class="col-xs-4">
+                                <a href="https://github.com/gloriahigley/the-ajaxson-5">Gif Requestor built with JavaScript and jQuery</a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://github.com/gloriahigley/pyramid-slide">Interactive Pyramid Slider built with JavaScript</a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://github.com/gloriahigley/word-up">Word Game built with JavaScript and jQuery</a>
+                            </div>
                         </div>
+                     </div>   
                         <div class="row">
-                            <div class="column">
-                                <figure>
-                                    <img src="https://iz.zohostatic.com/sites/default/files/professionally-crafted-themes.png" alt="Picture of computer" height="100">
+                            <div class="col-xs-4">
+                                <figure class="img_marg">
+                                        <a href="https://github.com/gloriahigley/the-ajaxson-5"><img src="images/ajaxson5.png" class="center-block" alt="ajax" height="100" width="300"></a>
                                 </figure>
                         </div>
-                        <div class="column">
-                                <figure>
-                                    <img src="http://www.pvhc.net/img27/vjkxubzudulzvgetaseh.png" alt="calculator" height="100">
+                        <div class="col-xs-4">
+                                <figure class="img_marg">
+                                        <a href="https://github.com/gloriahigley/pyramid-slide"><img src="images/pyramidslide.png" class="center-block" alt="pyramid" height="100" width="300"></a>
                                 </figure>
                         </div>
-                        <div class="column">
-                      <figure>
-                          <img src="https://developers.google.com/web/progressive-web-apps/images/pwa-fast.png" alt="mobile app" height="100">
+                        <div class="col-xs-4">
+                      <figure class="img_marg">
+                            <a href="https://github.com/gloriahigley/word-up"><img src="images/wordup.png" class="center-block" alt="wordup" height="100" width="300"></a>
                       </figure>
                     </div>
                   </div>
@@ -67,5 +78,6 @@
         </article>
     </main>
 <footer>&copy Gloria Higley 2017</footer>
+</div>
 </body>
 </html>

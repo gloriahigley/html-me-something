@@ -39,11 +39,21 @@ li {
     color: white;
     border-style: solid;
     border-color: pink;
-    border-width: 2px;
+    border-width: 4px;
+    padding: 4px;
+}
+
+.img_marg{
+    margin-top: 10px;
 }
 
 p{
     font-family: "News Cycle"; font-size: 20px;
+}
+
+a{
+    font-family: "News Cycle"; font-size: 20px;
+    text-align: center;
 }
 
 article{
@@ -57,11 +67,10 @@ body{
 }
 
 img{
-    border-radius: 50%;
     height: 150px;
     border-style: dashed;
     border-width: 5px;
-    
+
 }
 
 footer{
